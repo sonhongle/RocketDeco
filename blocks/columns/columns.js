@@ -14,7 +14,7 @@ export default function decorate(block) {
 
   const divs = document.querySelectorAll('.columns > div > div');
   divs.forEach((div) => {
-  div.classList.add('products');
+    div.classList.add('products');
   });
 
   const buttonLinks = document.querySelectorAll('p em a');
