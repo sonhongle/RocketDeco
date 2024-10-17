@@ -19,10 +19,9 @@ export default function decorate(block) {
 
   const buttonLinks = document.querySelectorAll('p em a');
 
-  buttonLinks.forEach(buttonLink => {
-  buttonLink.classList.add('button-secondary');
+  buttonLinks.forEach((buttonLink) => {
+    buttonLink.classList.add('button-secondary');
   });
-
 
   // setup image columns
   [...block.children].forEach((row) => {
