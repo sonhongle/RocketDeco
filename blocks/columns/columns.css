@@ -1,5 +1,10 @@
-h2 {
+#tranh-dán-tường-tháng-102024{
   text-align: center;
+  background-color: #0056b3;
+  color: #ffffff;
+}
+div>h2 {
+  
 }
 .columns > div {
   display: grid; 
@@ -10,10 +15,16 @@ h2 {
 .columns img {
   width: 100%;
   object-fit: cover; 
+  
+  
 }
 
-.columns > div > div {
+.products {
   order: 1; 
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: rgb(0 0 0 / 20%) 0px 5px 5px 0px;
 }
 
 .columns > div > .columns-img-col {
@@ -24,21 +35,38 @@ h2 {
   display: block;
 }
 
-.columns > div > div >h2 {
+.columns-heading {
   text-align: center;
 }
-.columns > div > div >p {
+.columns-paragraph {
   text-align: center;
 
 }
-
+.button-secondary {
+  padding: 0px 10px; 
+  text-decoration: none; 
+  border: none; 
+  border-radius: 4px; 
+  display: inline-block; 
+  color: black; 
+  background-color: white;
+  font-weight: normal; 
+}
+.button.secondary:hover {
+  background-color: #0056b3;  
+  color: #ffffff;            
+  transform: scale(1.1);      
+}
 @media (max-width: 900px) {
   .columns > div {
     grid-template-columns: repeat(2, 1fr);
     gap: 16px; 
   }
-  .columns > div > div >h2{
+  .columns-heading{
     font-size: 13px; 
+  }
+  .button-secondary {
+    font-size: 11px;
   }
 }
 
@@ -48,19 +76,14 @@ h2 {
     gap: 24px; 
   }
 
-  .columns > div > div {
+  .products {
     flex: 1;
     order: unset; 
   }
-  .columns > div > div >h2{
+  .columns-heading{
     font-size: 17px; 
   }
+  .button-secondary {
+    font-size: 15px;
+  }
 }
-
-
-
-
-
-
-
-
