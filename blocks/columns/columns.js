@@ -14,11 +14,16 @@ export default function decorate(block) {
 
   const divs = document.querySelectorAll('.columns > div > div');
   divs.forEach((div) => {
+<<<<<<< HEAD
   div.classList.add('products');
+=======
+    div.classList.add('products');
+>>>>>>> 494f4fc63c74f7c63a84a62f0be88af3b74594cc
   });
 
   const buttonLinks = document.querySelectorAll('p em a');
 
+<<<<<<< HEAD
   buttonLinks.forEach(buttonLink => {
   buttonLink.classList.add('button-secondary');
   });
@@ -39,6 +44,12 @@ productElements.forEach(product => {
 });
 
 
+=======
+  buttonLinks.forEach((buttonLink) => {
+    buttonLink.classList.add('button-secondary');
+  });
+
+>>>>>>> 494f4fc63c74f7c63a84a62f0be88af3b74594cc
   // setup image columns
   [...block.children].forEach((row) => {
     [...row.children].forEach((col) => {

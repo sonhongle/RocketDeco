@@ -1,7 +1,17 @@
+<<<<<<< HEAD
 .columns-container .default-content-wrapper{
   text-align: center;
   background-color: #0056b3;
   color: #ffffff;
+=======
+#tranh-dán-tường-tháng-102024{
+  text-align: center;
+  background-color: #0056b3;
+  color: #ffffff;
+}
+div>h2 {
+  
+>>>>>>> 494f4fc63c74f7c63a84a62f0be88af3b74594cc
 }
 
 .sale-off{
@@ -39,8 +49,13 @@
 .columns img {
   width: 100%;
   object-fit: cover; 
+<<<<<<< HEAD
 
 
+=======
+  
+  
+>>>>>>> 494f4fc63c74f7c63a84a62f0be88af3b74594cc
 }
 
 .products {
@@ -49,8 +64,11 @@
   border: 1px solid #ccc;
   border-radius: 10px;
   box-shadow: rgb(0 0 0 / 20%) 0px 5px 5px 0px;
+<<<<<<< HEAD
   position: relative;
   overflow: hidden;
+=======
+>>>>>>> 494f4fc63c74f7c63a84a62f0be88af3b74594cc
 }
 
 .columns > div > .columns-img-col {
@@ -68,7 +86,10 @@
   text-align: center;
   margin: 0;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 494f4fc63c74f7c63a84a62f0be88af3b74594cc
 .button-secondary {
   padding: 0px 10px; 
   text-decoration: none; 
@@ -113,6 +134,7 @@
   .button-secondary {
     font-size: 15px;
   }
+<<<<<<< HEAD
 }
 
 
@@ -122,3 +144,6 @@
 
 
 
+=======
+}
+>>>>>>> 494f4fc63c74f7c63a84a62f0be88af3b74594cc
