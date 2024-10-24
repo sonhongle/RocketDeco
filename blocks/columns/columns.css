@@ -1,11 +1,35 @@
-#tranh-dán-tường-tháng-102024{
+.columns-container .default-content-wrapper{
   text-align: center;
   background-color: #0056b3;
   color: #ffffff;
 }
-div>h2 {
-  
+
+.sale-off{
+  position: absolute;
+  top: 10px;
+  right: 10px; 
+  border: 1px solid #a20319;
+  background-color: #AA132B;
+  color: white; 
+  padding: 5px 10px; 
+  box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
+  font-size: 14px; 
+  z-index: 10; 
 }
+
+.psale {
+  position: absolute; 
+  top: 10px; 
+  left: 10px; 
+  background-color: #426100; 
+  color: white; 
+  padding: 5px 10px; 
+  font-size: 14px; 
+  border: 2px solid;
+  border-radius: 10px; 
+  z-index: 10;
+}
+
 .columns > div {
   display: grid; 
   grid-template-columns: 1fr; 
@@ -15,8 +39,8 @@ div>h2 {
 .columns img {
   width: 100%;
   object-fit: cover; 
-  
-  
+
+
 }
 
 .products {
@@ -25,6 +49,8 @@ div>h2 {
   border: 1px solid #ccc;
   border-radius: 10px;
   box-shadow: rgb(0 0 0 / 20%) 0px 5px 5px 0px;
+  position: relative;
+  overflow: hidden;
 }
 
 .columns > div > .columns-img-col {
@@ -40,8 +66,9 @@ div>h2 {
 }
 .columns-paragraph {
   text-align: center;
-
+  margin: 0;
 }
+
 .button-secondary {
   padding: 0px 10px; 
   text-decoration: none; 
