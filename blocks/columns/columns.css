@@ -1,6 +1,7 @@
 h2 {
   text-align: center;
 }
+
 .columns > div {
   display: grid; 
   grid-template-columns: 1fr; 
@@ -27,22 +28,24 @@ h2 {
 .columns > div > div >h2 {
   text-align: center;
 }
+
 .columns > div > div >p {
   text-align: center;
 
 }
 
-@media (max-width: 900px) {
+@media (width <= 900px) {
   .columns > div {
     grid-template-columns: repeat(2, 1fr);
     gap: 16px; 
   }
+
   .columns > div > div >h2{
     font-size: 13px; 
   }
 }
 
-@media (min-width: 900px) {
+@media (width >= 900px) {
   .columns > div {
     grid-template-columns: repeat(4, 1fr); 
     gap: 24px; 
@@ -52,6 +55,7 @@ h2 {
     flex: 1;
     order: unset; 
   }
+
   .columns > div > div >h2{
     font-size: 17px; 
   }
